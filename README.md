@@ -19,7 +19,7 @@ SoftUni JS Back End Course Project re-written with express/hbs
 ### Architecture (3 layer - Controller, Service, Data/Model) and Dynamic rendering
 
 -  [x] Add home controller
--  [] Add cat data layer
+-  [x] Add cat data layer
 -  [] Add cat service
 -  [] Render dynamic cat on home page
 -  [] Show no cat screen
