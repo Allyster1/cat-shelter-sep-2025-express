@@ -19,3 +19,11 @@ SoftUni JS Back End Course Project
 -  [x] Add Layout
 -  [x] Render home page
 -  [x] Add dynamic rendering for title and searchForm (visible only for the home page)
+
+### Architecture (3 layer - Controller, Service, Data/Model) and Dynamic rendering
+
+-  [x] Add home controller
+-  [] Add cat data layer
+-  [] Add cat service
+-  [] Render dynamic cat on home page
+-  [] Show no cat screen
