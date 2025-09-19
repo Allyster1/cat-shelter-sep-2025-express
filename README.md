@@ -2,10 +2,6 @@
 
 SoftUni JS Back End Course Project re-written with express/hbs
 
-# cat-shelter-sep-2025
-
-SoftUni JS Back End Course Project
-
 ## Development Setup
 
 ### Setup
