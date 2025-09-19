@@ -18,5 +18,8 @@
    "bugs": {
       "url": "https://github.com/Allyster1/cat-shelter-sep-2025-express/issues"
    },
-   "homepage": "https://github.com/Allyster1/cat-shelter-sep-2025-express#readme"
+   "homepage": "https://github.com/Allyster1/cat-shelter-sep-2025-express#readme",
+   "dependencies": {
+      "express": "^5.1.0"
+   }
 }
