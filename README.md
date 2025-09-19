@@ -15,6 +15,7 @@ SoftUni JS Back End Course Project re-written with express/hbs
 -  [x] Add Layout
 -  [x] Render home page
 -  [x] Add dynamic rendering for title and searchForm (visible only for the home page)
+-  [x] Add 404 page
 
 ### Architecture (3 layer - Controller, Service, Data/Model) and Dynamic rendering
 
