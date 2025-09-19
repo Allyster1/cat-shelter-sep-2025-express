@@ -12,7 +12,7 @@ app.use(express.static("src/public"));
 app.use(express.urlencoded());
 
 app.get("/", (req, res) => {
-   res.render("home");
+   res.render("home", { title: "Home Page", showSearchForm: true });
 });
 
 app.listen(5000, () => console.log("Server is running on port http://localhost:5000"));

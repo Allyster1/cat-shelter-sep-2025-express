@@ -18,3 +18,4 @@ SoftUni JS Back End Course Project
 -  [x] Add Launch Debugger
 -  [x] Add Layout
 -  [x] Render home page
+-  [x] Add dynamic rendering for title and searchForm (visible only for the home page)
