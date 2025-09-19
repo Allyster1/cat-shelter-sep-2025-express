@@ -1,0 +1,22 @@
+{
+   "name": "cat-shelter-sep-2025-express",
+   "version": "1.0.0",
+   "description": "SoftUni JS Back End Course Project re-written with express/hbs",
+   "main": "index.js",
+   "scripts": {
+      "start": "node src/index.js",
+      "dev": "node --watch src/index.js"
+   },
+   "type": "module",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Allyster1/cat-shelter-sep-2025-express.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/Allyster1/cat-shelter-sep-2025-express/issues"
+   },
+   "homepage": "https://github.com/Allyster1/cat-shelter-sep-2025-express#readme"
+}
