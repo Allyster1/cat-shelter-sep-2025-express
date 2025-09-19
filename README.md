@@ -21,5 +21,5 @@ SoftUni JS Back End Course Project re-written with express/hbs
 -  [x] Add home controller
 -  [x] Add cat data layer
 -  [x] Add cat service
--  [] Render dynamic cat on home page
+-  [x] Render dynamic cat on home page
 -  [x] Show no cat screen
