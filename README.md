@@ -24,3 +24,12 @@ SoftUni JS Back End Course Project re-written with express/hbs
 -  [x] Add cat service
 -  [x] Render dynamic cat on home page
 -  [x] Show no cat screen
+
+### Search
+
+-  [x] Render all cats
+-  [] Modify search form
+-  [] Filter cat
+-  -  [] By Name
+-  -  [] By Breed
+-  [] Remember search words
