@@ -7,10 +7,10 @@ catController.get("/add-cat", (req, res) => {
    res.render("addCat", { title: "Add Cat Page" });
 });
 
-catController.post("/add-cat", (req, res) => {
+catController.post("/add-cat", async (req, res) => {
    const catData = req.body;
 
-   catService.create(catData);
+   await catService.create(catData);
 
    res.redirect("/");
 });

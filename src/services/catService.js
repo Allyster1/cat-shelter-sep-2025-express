@@ -6,6 +6,9 @@ export default {
    },
    create(catData) {
       // Todo create cat
-      console.log(catData);
+
+      const cat = new Cat(catData);
+
+      return cat.save();
    },
 };

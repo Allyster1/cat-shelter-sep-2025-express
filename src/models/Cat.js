@@ -18,8 +18,12 @@ export default class Cat {
       return this._id;
    }
 
-   save() {
+   async save() {
       db.cats.push(this);
+
+      const dbSerialized = JSON.stringify(db, null, 2);
+
+      await fs.writeFile("./src/db.json", dbSerialized);
 
       return this;
    }
