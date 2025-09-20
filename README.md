@@ -31,7 +31,7 @@ SoftUni JS Back End Course Project re-written with express/hbs
 -  [x] Show create cat page
 -  [x] Ready body data
 -  [] Create cat
-   -  [] Add action
+   -  [x] Add action
    -  [] Add service
    -  [] Add model method for creating cat
 -  [] Redirect after creation

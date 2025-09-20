@@ -1,5 +1,5 @@
 import { Router } from "express";
-// import catService from "../services/catService.js";
+import catService from "../services/catService.js";
 
 const catController = Router();
 
@@ -8,7 +8,9 @@ catController.get("/add-cat", (req, res) => {
 });
 
 catController.post("/add-cat", (req, res) => {
-   console.log(req.body);
+   const catData = req.body;
+
+   catService.create(catData);
 
    res.end();
 });
