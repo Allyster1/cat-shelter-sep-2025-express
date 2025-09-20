@@ -11,7 +11,7 @@ routes.use("/cats", catController);
 routes.use("/breeds", breedController);
 
 routes.get("*splat", (req, res) => {
-  res.render("404", { title: "Page not Found", showSearchForm: false });
+   res.render("404", { title: "Page not Found", showSearchForm: false });
 });
 
 export default routes;

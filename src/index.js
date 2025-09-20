@@ -18,6 +18,4 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(routes);
 
-app.listen(PORT, () =>
-  console.log(`Server is running on port http://localhost:${PORT}`)
-);
+app.listen(PORT, () => console.log(`Server is running on port http://localhost:${PORT}`));

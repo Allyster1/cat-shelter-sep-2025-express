@@ -4,15 +4,15 @@ import breedService from "../services/breedService.js";
 const breedController = Router();
 
 breedController.get("/add-breed", (req, res) => {
-  res.render("addBreed", { title: "Add Breed" });
+   res.render("addBreed", { title: "Add Breed" });
 });
 
 breedController.post("/add-breed", async (req, res) => {
-  const breedData = req.body;
+   const breedData = req.body;
 
-  await breedService.create(breedData);
+   await breedService.create(breedData);
 
-  res.redirect("/");
+   res.redirect("/");
 });
 
 export default breedController;

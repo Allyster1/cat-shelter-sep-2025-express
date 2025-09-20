@@ -7,64 +7,58 @@ const catController = Router();
 // Add cat
 
 catController.get("/add-cat", async (req, res) => {
-  const breeds = await breedService.getAll();
+   const breeds = await breedService.getAll();
 
-  res.render("addCat", { title: "Add Cat Page", breeds });
+   res.render("addCat", { title: "Add Cat Page", breeds });
 });
 
 catController.post("/add-cat", async (req, res) => {
-  const catData = req.body;
+   const catData = req.body;
 
-  await catService.create(catData);
+   await catService.create(catData);
 
-  res.redirect("/");
+   res.redirect("/");
 });
 
 // Edit cat
 
 catController.get("/:id/edit-cat", async (req, res) => {
-  const catId = req.params.id;
-  const cat = await catService.getById(catId);
-  const allBreeds = await breedService.getAll();
+   const catId = req.params.id;
+   const cat = await catService.getById(catId);
+   const allBreeds = await breedService.getAll();
 
-  const breeds = allBreeds.map((breed) => ({
-    ...breed,
-    selected: breed.breed === cat.breed,
-  }));
+   const breeds = allBreeds.map((breed) => ({
+      ...breed,
+      selected: breed.breed === cat.breed,
+   }));
 
-  res.render("editCat", { title: "Edit Cat Page", ...cat, breeds });
+   res.render("editCat", { title: "Edit Cat Page", ...cat, breeds });
 });
 
 catController.post("/:id/edit-cat", async (req, res) => {
-  const catId = req.params.id;
-  const catData = req.body;
+   const catId = req.params.id;
+   const catData = req.body;
 
-  await catService.update(catId, catData);
+   await catService.update(catId, catData);
 
-  res.redirect("/");
+   res.redirect("/");
 });
 
 // Cat details and delete
 
 catController.get("/:id/details", async (req, res) => {
-  const catId = req.params.id;
-  const cat = await catService.getById(catId);
+   const catId = req.params.id;
+   const cat = await catService.getById(catId);
 
-  if (!cat) {
-    return res
-      .status(404)
-      .render("404", { title: "Cat not found", showSearchForm: false });
-  }
-
-  res.render("catShelter", { title: "Cat Details Page", ...cat });
+   res.render("catShelter", { title: "Cat Details Page", ...cat });
 });
 
 catController.post("/:id/details", async (req, res) => {
-  const catId = req.params.id;
+   const catId = req.params.id;
 
-  await catService.delete(catId);
+   await catService.delete(catId);
 
-  res.redirect("/");
+   res.redirect("/");
 });
 
 export default catController;
