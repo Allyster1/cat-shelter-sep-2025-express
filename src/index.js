@@ -1,8 +1,12 @@
 import express from "express";
 import handlebars from "express-handlebars";
+import "dotenv/config";
+
 import routes from "./routes.js";
 
 const app = express();
+
+const PORT = process.env.Port || 5000;
 
 app.engine("hbs", handlebars.engine({ extname: ".hbs" }));
 app.set("view engine", "hbs");
@@ -14,4 +18,4 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(routes);
 
-app.listen(5000, () => console.log("Server is running on port http://localhost:5000"));
+app.listen(PORT, () => console.log("Server is running on port http://localhost:5000"));

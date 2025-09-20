@@ -20,6 +20,7 @@
    },
    "homepage": "https://github.com/Allyster1/cat-shelter-sep-2025-express#readme",
    "dependencies": {
+      "dotenv": "^17.2.2",
       "express": "^5.1.0",
       "express-handlebars": "^8.0.3"
    },
