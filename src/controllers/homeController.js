@@ -3,14 +3,15 @@ import catService from "../services/catService.js";
 
 const homeController = Router();
 
-homeController.get("/", (req, res) => {
-   const cats = catService.getAll();
-   res.render("home", {
-      title: "Home Page",
-      headerTitle: "Cat Shelter",
-      showSearchForm: true,
-      cats,
-   });
+homeController.get("/", async (req, res) => {
+  const cats = await catService.getAll();
+
+  res.render("home", {
+    title: "Home Page",
+    headerTitle: "Cat Shelter",
+    showSearchForm: true,
+    cats,
+  });
 });
 
 export default homeController;

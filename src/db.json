@@ -29,9 +29,9 @@
          "_id": "asd05448-035a-1221-983f-47ac5de231s9"
       },
       {
-         "name": "Bad Cat",
-         "description": "400",
-         "imageUrl": "https://http.cat/images/400.jpg",
+         "name": "Unauthorized",
+         "description": "This status code is similar to the 403 Forbidden status code, except that in situations resulting in this status code, user authentication can allow access to the",
+         "imageUrl": "https://http.cat/images/401.jpg",
          "breed": "HTTP",
          "_id": "fec05448-034a-40c6-983f-47ac5cee1369"
       },
