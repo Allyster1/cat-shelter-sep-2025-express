@@ -35,7 +35,7 @@ SoftUni JS Back End Course Project re-written with express/hbs
    -  [x] Add service
    -  [x] Add model method for creating cat
 -  [x] Redirect after creation
--  [] Add unique if for each created cat
+-  [x] Add unique if for each created cat `npm i uuid`
 
 ### Search
 
