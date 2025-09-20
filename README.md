@@ -25,6 +25,18 @@ SoftUni JS Back End Course Project re-written with express/hbs
 -  [x] Render dynamic cat on home page
 -  [x] Show no cat screen
 
+### Create Cat
+
+-  [x] Add Cat Controller
+-  [] Show create cat page
+-  [] Ready body data
+-  [] Create cat
+   -  [] Add action
+   -  [] Add service
+   -  [] Add model method for creating cat
+-  [] Redirect after creation
+-  [] Add unique if for each created cat
+
 ### Search
 
 -  [x] Render all cats
