@@ -1,6 +1,6 @@
 import { Router } from "express";
 
-breedController = Router();
+const breedController = Router();
 
 breedController.get("/add-breed", (req, res) => {
    res.send("Cat Breed Page");
