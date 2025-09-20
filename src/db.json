@@ -37,37 +37,47 @@
       },
       {
          "_id": "b7c0b262-cef1-42c1-b62f-70833be4c8e8",
-         "collectionName": "cats",
          "name": "Diego",
          "description": "Я говорю мяу",
          "imageUrl": "https://www.tippaws.com/cdn/shop/articles/getting-to-know-your-russian-blue-tippaws_1060x550_crop_center.png?v=1729077811",
          "breed": "Russian Blue"
+      },
+      {
+         "_id": "ef2ef7f5-b390-4b44-bf07-0695851176cf",
+         "name": "Asparuh",
+         "description": "A rare specimen!",
+         "imageUrl": "https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg=",
+         "breed": "Abyssinian"
       }
    ],
    "breeds": [
       {
-         "breed": "Siamese",
-         "_id": "aebe4cc4-cfb1-4cdd-8239-07ab5c6f6969"
+         "_id": "aebe4cc4-cfb1-4cdd-8239-07ab5c6f6969",
+         "breed": "Siamese"
       },
       {
-         "breed": "Russian Blue",
-         "_id": "dc521cbb-17bc-4c44-8a9c-fa3713685315"
+         "_id": "dc521cbb-17bc-4c44-8a9c-fa3713685315",
+         "breed": "Russian Blue"
       },
       {
-         "breed": "Bombay",
-         "_id": "3d751416-28de-496d-a451-1b23a631b02c"
+         "_id": "3d751416-28de-496d-a451-1b23a631b02c",
+         "breed": "Bombay"
       },
       {
-         "breed": "HTTP",
-         "_id": "731b7a77-416c-49b7-95f1-8420832df565"
+         "_id": "731b7a77-416c-49b7-95f1-8420832df565",
+         "breed": "HTTP"
       },
       {
-         "breed": "Sphynx",
-         "_id": "1a840cc0-7178-4d5e-9721-6ade200efed3"
+         "_id": "1a840cc0-7178-4d5e-9721-6ade200efed3",
+         "breed": "Sphynx"
       },
       {
-         "breed": "Gosho",
-         "_id": "7aa92b14-2166-4d95-9712-f21e6c258442"
+         "_id": "7aa92b14-2166-4d95-9712-f21e6c258442",
+         "breed": "Gosho"
+      },
+      {
+         "_id": "f568f968-6dd7-4b4e-9e2f-97f0d8f0f297",
+         "breed": "Abyssinian"
       }
    ]
 }

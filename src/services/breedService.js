@@ -16,6 +16,6 @@ export default {
     }
 
     const breed = new Breed(breedData);
-    return await breed.save();
+    return await breed.save("breeds");
   },
 };

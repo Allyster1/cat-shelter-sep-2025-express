@@ -2,7 +2,7 @@ import BaseModel from "./BaseModel.js";
 
 export default class Breed extends BaseModel {
   constructor(data) {
-    super("breeds", data);
+    super(data);
   }
 
   static find() {

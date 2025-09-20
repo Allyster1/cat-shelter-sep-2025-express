@@ -11,7 +11,7 @@ export default {
 
   async create(catData) {
     const cat = new Cat(catData);
-    return await cat.save();
+    return await cat.save("cats");
   },
 
   async update(id, catData) {

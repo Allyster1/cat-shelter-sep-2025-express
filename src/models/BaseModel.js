@@ -5,9 +5,8 @@ const DB_FILE = "./src/db.json";
 let db = JSON.parse(await fs.readFile(DB_FILE, "utf-8"));
 
 export default class BaseModel {
-  constructor(collectionName, data = {}) {
+  constructor(data = {}) {
     this._id = uuid();
-    this.collectionName = collectionName;
     Object.assign(this, data);
   }
 
@@ -24,8 +23,8 @@ export default class BaseModel {
 
   //  Instance Methods
 
-  async save() {
-    db[this.collectionName].push(this);
+  async save(collectionName) {
+    db[collectionName].push(this);
     await BaseModel.writeToDb();
     return this;
   }
