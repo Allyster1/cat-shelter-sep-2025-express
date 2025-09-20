@@ -41,8 +41,7 @@ SoftUni JS Back End Course Project re-written with express/hbs
 
 -  [x] Add Breed Controller
 -  [x] Update the routes
--  [] Show create breed page
--  [] Ready body data
+-  [x] Show create breed page
 -  [] Create breed
    -  [] Add action
    -  [] Add service
