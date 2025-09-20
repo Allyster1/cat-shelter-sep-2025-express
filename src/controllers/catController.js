@@ -22,7 +22,7 @@ catController.post("/add-cat", async (req, res) => {
 
 // Edit cat
 
-catController.get("/edit-cat/:id", async (req, res) => {
+catController.get("/:id/edit-cat", async (req, res) => {
   const catId = req.params.id;
   const cat = await catService.getById(catId);
   const allBreeds = await breedService.getAll();
@@ -35,7 +35,7 @@ catController.get("/edit-cat/:id", async (req, res) => {
   res.render("editCat", { title: "Edit Cat Page", ...cat, breeds });
 });
 
-catController.post("/edit-cat/:id", async (req, res) => {
+catController.post("/:id/edit-cat", async (req, res) => {
   const catId = req.params.id;
   const catData = req.body;
 
@@ -46,7 +46,7 @@ catController.post("/edit-cat/:id", async (req, res) => {
 
 // Cat details and delete
 
-catController.get("/details/:id", async (req, res) => {
+catController.get("/:id/details", async (req, res) => {
   const catId = req.params.id;
   const cat = await catService.getById(catId);
 
@@ -59,7 +59,7 @@ catController.get("/details/:id", async (req, res) => {
   res.render("catShelter", { title: "Cat Details Page", ...cat });
 });
 
-catController.post("/details/:id", async (req, res) => {
+catController.post("/:id/details", async (req, res) => {
   const catId = req.params.id;
 
   await catService.delete(catId);
