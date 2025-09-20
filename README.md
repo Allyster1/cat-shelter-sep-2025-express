@@ -33,8 +33,8 @@ SoftUni JS Back End Course Project re-written with express/hbs
 -  [] Create cata
    -  [x] Add action
    -  [x] Add service
-   -  [] Add model method for creating cat
--  [] Redirect after creation
+   -  [x] Add model method for creating cat
+-  [x] Redirect after creation
 -  [] Add unique if for each created cat
 
 ### Search

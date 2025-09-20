@@ -15,8 +15,6 @@ export default class Cat {
    save() {
       db.cats.push(this);
 
-      console.log(db.cats);
-
       return this;
    }
 }

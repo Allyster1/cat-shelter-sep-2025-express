@@ -12,7 +12,7 @@ catController.post("/add-cat", (req, res) => {
 
    catService.create(catData);
 
-   res.end();
+   res.redirect("/");
 });
 
 export default catController;
