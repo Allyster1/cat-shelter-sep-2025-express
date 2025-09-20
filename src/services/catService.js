@@ -5,6 +5,7 @@ export default {
       return Cat.find();
    },
    create(catData) {
+      // Todo create cat
       console.log(catData);
    },
 };
