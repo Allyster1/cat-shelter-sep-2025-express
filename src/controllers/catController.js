@@ -3,8 +3,8 @@ import catService from "../services/catService.js";
 
 const catController = Router();
 
-catController.get("/cats/add-cat", (req, res) => {
-   res.send("Add cat Page");
+catController.get("/add-cat", (req, res) => {
+   res.render("addCat", { title: "Add Cat Page" });
 });
 
 export default catController;

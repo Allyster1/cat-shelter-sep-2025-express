@@ -28,7 +28,7 @@ SoftUni JS Back End Course Project re-written with express/hbs
 ### Create Cat
 
 -  [x] Add Cat Controller
--  [] Show create cat page
+-  [x] Show create cat page
 -  [] Ready body data
 -  [] Create cat
    -  [] Add action

@@ -6,7 +6,7 @@ import catController from "./controllers/catController.js";
 const routes = Router();
 
 routes.use(homeController);
-routes.use(catController);
+routes.use("/cats", catController);
 
 routes.get("*splat", (req, res) => {
    res.render("404", { title: "Page not Found", showSearchForm: false });
