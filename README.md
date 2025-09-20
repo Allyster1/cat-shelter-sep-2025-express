@@ -36,5 +36,5 @@ SoftUni JS Back End Course Project re-written with express/hbs
 
 ## Additional
 
--  [x] Add nodemon and change the debugger to include nodemon
+-  [x] Add nodemon and change the debugger to include nodemon `npm i nodemon`
 -  [] implement dotenv for secrets and ports
