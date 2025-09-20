@@ -44,4 +44,10 @@ catController.post("/edit-cat/:id", async (req, res) => {
   res.redirect("/");
 });
 
+// Delete cat
+
+catController.get("/delete-cat/:id", async (req, res) => {
+  res.send("Delete cat page");
+});
+
 export default catController;

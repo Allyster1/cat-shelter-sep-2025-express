@@ -60,6 +60,15 @@ SoftUni JS Back End Course Project re-written with express/hbs
 - [x] Add dynamic breed in form option
 - [x] Redirect after edit
 
+### Delete Cat
+
+- [x] Add delete action
+- [] Show delete cat page
+- [] Add delete routes
+- [] Persis value on delete
+- [] Add dynamic breed in form option
+- [] Redirect after delete
+
 ### Search
 
 - [x] Render all cats
