@@ -2,13 +2,6 @@
    "cats": [
       {
          "imageUrl": "https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg=",
-         "name": "Navcho",
-         "breed": "Persian",
-         "description": "A talkative and affectionate cat with striking yellow eyes.",
-         "_id": "fec05448-034a-3221-983f-47ac5ce231s9"
-      },
-      {
-         "imageUrl": "https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg=",
          "name": "Sisa",
          "breed": "Siamese",
          "description": "Loves to cuddle and nap. Requires regular grooming for its luxurious coat.",
@@ -22,7 +15,7 @@
          "_id": "asd05448-035a-1221-983f-47ac5de231s9"
       },
       {
-         "name": "Unauthorized",
+         "name": "Unauthorized Cat",
          "description": "This status code is similar to the 403 Forbidden status code, except that in situations resulting in this status code, user authentication can allow access to the",
          "imageUrl": "https://http.cat/images/401.jpg",
          "breed": "HTTP",
