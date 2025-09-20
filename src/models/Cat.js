@@ -46,4 +46,19 @@ export default class Cat {
 
     return db.cats[catIndex];
   }
+
+  static async findByIdAndDelete(id) {
+    const catIndex = db.cats.findIndex((cat) => cat._id === id);
+
+    if (catIndex === -1) {
+      return null;
+    }
+
+    const deletedCat = db.cats.splice(catIndex, 1)[0];
+
+    const dbSerialized = JSON.stringify(db, null, 3);
+    await fs.writeFile("./src/db.json", dbSerialized);
+
+    return deletedCat;
+  }
 }

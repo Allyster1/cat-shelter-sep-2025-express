@@ -44,10 +44,27 @@ catController.post("/edit-cat/:id", async (req, res) => {
   res.redirect("/");
 });
 
-// Delete cat
+// Cat details and delete
 
 catController.get("/details/:id", async (req, res) => {
-  res.render("catShelter", { title: "Cat Details Page" });
+  const catId = req.params.id;
+  const cat = await catService.getById(catId);
+
+  if (!cat) {
+    return res
+      .status(404)
+      .render("404", { title: "Cat not found", showSearchForm: false });
+  }
+
+  res.render("catShelter", { title: "Cat Details Page", ...cat });
+});
+
+catController.post("/details/:id", async (req, res) => {
+  const catId = req.params.id;
+
+  await catService.delete(catId);
+
+  res.redirect("/");
 });
 
 export default catController;

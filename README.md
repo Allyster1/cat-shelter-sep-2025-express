@@ -60,14 +60,17 @@ SoftUni JS Back End Course Project re-written with express/hbs
 - [x] Add dynamic breed in form option
 - [x] Redirect after edit
 
-### Delete Cat
+### Details
 
-- [x] Add delete routing
-- [x] Show delete cat page
-- [x] Add delete routes
-- [] Persis value on delete
-- [] Add dynamic breed in form option
-- [] Redirect after delete
+- [x] Add details routing
+- [x] Show details cat page
+- [x] Persist value on details
+- [x] Add dynamic breed in form option
+- [x] Add delete functionality to cat shelter
+- [x] Implement findByIdAndDelete method in Cat model
+- [x] Add POST route for cat deletion
+- [x] Make cat shelter page fully dynamic with cat data
+- [x] Redirect after delete
 
 ### Search
 

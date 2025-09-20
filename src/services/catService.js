@@ -31,4 +31,7 @@ export default {
         cat.description.toLowerCase().includes(searchTerm)
     );
   },
+  delete(id) {
+    return Cat.findByIdAndDelete(id);
+  },
 };
