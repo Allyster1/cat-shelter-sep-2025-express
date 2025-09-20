@@ -21,7 +21,7 @@ export default class Cat {
    async save() {
       db.cats.push(this);
 
-      const dbSerialized = JSON.stringify(db, null, 2);
+      const dbSerialized = JSON.stringify(db, null, 3);
 
       await fs.writeFile("./src/db.json", dbSerialized);
 

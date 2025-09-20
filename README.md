@@ -37,6 +37,25 @@ SoftUni JS Back End Course Project re-written with express/hbs
 -  [x] Redirect after creation
 -  [x] Add unique if for each created cat `npm i uuid`
 
+### Add Breed
+
+-  [x] Add Breed Controller
+-  [] Show create breed page
+-  [] Ready body data
+-  [] Create breed
+   -  [] Add action
+   -  [] Add service
+   -  [] Add model method for creating breed
+-  [] Redirect after creation
+
+### Details
+
+-  [] Add navigation button for detail page
+-  [] Add route with param for details page
+-  [] GetOne movie from service
+-  [] Find movie by id from model
+-  [] Render details page with dynamic data
+
 ### Search
 
 -  [x] Render all cats
