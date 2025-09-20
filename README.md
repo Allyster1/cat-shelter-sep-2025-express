@@ -62,9 +62,9 @@ SoftUni JS Back End Course Project re-written with express/hbs
 
 ### Delete Cat
 
-- [x] Add delete action
-- [] Show delete cat page
-- [] Add delete routes
+- [x] Add delete routing
+- [x] Show delete cat page
+- [x] Add delete routes
 - [] Persis value on delete
 - [] Add dynamic breed in form option
 - [] Redirect after delete
