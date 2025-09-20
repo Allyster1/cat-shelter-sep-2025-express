@@ -5,7 +5,12 @@ const homeController = Router();
 
 homeController.get("/", (req, res) => {
    const cats = catService.getAll();
-   res.render("home", { title: "Home Page", showSearchForm: true, cats });
+   res.render("home", {
+      title: "Home Page",
+      headerTitle: "Cat Shelter",
+      showSearchForm: true,
+      cats,
+   });
 });
 
 export default homeController;

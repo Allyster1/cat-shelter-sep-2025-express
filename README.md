@@ -49,6 +49,17 @@ SoftUni JS Back End Course Project re-written with express/hbs
 -  [x] Redirect after creation
 -  [x] Add Dynamic cat Breed in the Create Cat Page
 
+### Edit Cat
+
+-  [x] Add edit action
+-  [] Show create breed page
+-  [] Create breed
+   -  [] Add action
+   -  [] Add service
+   -  [] Add model method for creating breed
+-  [] Redirect after creation
+-  [] Add Dynamic cat Breed in the Create Cat Page
+
 ### Details
 
 -  [] Add navigation button for detail page

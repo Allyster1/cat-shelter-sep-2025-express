@@ -19,7 +19,9 @@
                <li><a href="/cats/add-cat">Add Cat</a></li>
             </ul>
          </nav>
-         <h1>Cat Shelter</h1>
+         {{#if headerTitle}}
+            <h1>Cat Shelter</h1>
+         {{/if}}
          {{#if showSearchForm}}
             <form action="/search">
                <input type="text" />

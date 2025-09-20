@@ -3,54 +3,73 @@
       {
          "imageUrl": "https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?cs=srgb&dl=pexels-pixabay-104827.jpg&fm=jpg",
          "name": "Pretty Kitty",
-         "breed": "Bombay Cat",
+         "breed": "Bombay",
          "description": "Dominant and aggressive to other cats. Will probably eat you in your sleep. Very cute tho.",
          "_id": "fec05448-034a-40c6-983f-47ac5ce231s9"
       },
       {
          "imageUrl": "https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg=",
          "name": "Navcho",
-         "breed": "Persian Cat",
+         "breed": "Persian",
          "description": "A talkative and affectionate cat with striking yellow eyes.",
          "_id": "fec05448-034a-3221-983f-47ac5ce231s9"
       },
       {
          "imageUrl": "https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg=",
          "name": "Sisa",
-         "breed": "Siamese Cat",
+         "breed": "Siamese",
          "description": "Loves to cuddle and nap. Requires regular grooming for its luxurious coat.",
          "_id": "asd05448-034a-3221-983f-47ac5ce231s9"
       },
       {
          "imageUrl": "https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg=",
          "name": "Garry",
-         "breed": "Bombay Cat",
+         "breed": "Bombay",
          "description": "Mysterious and elegant. Often found lounging in sunny spots.",
          "_id": "asd05448-035a-1221-983f-47ac5de231s9"
       },
       {
          "name": "Bad Cat",
-         "description": "400 Cat",
+         "description": "400",
          "imageUrl": "https://http.cat/images/400.jpg",
-         "breed": "HTTP Cat",
+         "breed": "HTTP",
          "_id": "fec05448-034a-40c6-983f-47ac5cee1369"
       },
       {
          "name": "Okay Cat",
          "description": "The successful result of a PUT or a DELETE is often not a 200 OK but a 204 No Content (or a 201 Created when the resource is uploaded for the first time).",
          "imageUrl": "https://http.cat/images/200.jpg",
-         "breed": "HTTP Cat",
+         "breed": "HTTP",
          "_id": "484c4ddb-a724-4bae-9bd0-9dfa244ef87e"
+      },
+      {
+         "name": "Patrick",
+         "description": "He may be ugly, but his heart is pure.",
+         "imageUrl": "https://catevolution.co.nz/cdn/shop/articles/sphynx-Cats-1200x750.png?v=1674628187",
+         "breed": "Sphynx",
+         "_id": "4f47ed9e-9df9-4935-ad7e-8017546d59b1"
       }
    ],
    "breeds": [
       {
-         "breed": "Siamese Cat",
+         "breed": "Siamese",
          "_id": "aebe4cc4-cfb1-4cdd-8239-07ab5c6f6969"
       },
       {
          "breed": "Russian Blue",
          "_id": "dc521cbb-17bc-4c44-8a9c-fa3713685315"
+      },
+      {
+         "breed": "Bombay",
+         "_id": "3d751416-28de-496d-a451-1b23a631b02c"
+      },
+      {
+         "breed": "HTTP",
+         "_id": "731b7a77-416c-49b7-95f1-8420832df565"
+      },
+      {
+         "breed": "Sphynx",
+         "_id": "1a840cc0-7178-4d5e-9721-6ade200efed3"
       }
    ]
 }

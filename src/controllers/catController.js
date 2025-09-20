@@ -18,4 +18,8 @@ catController.post("/add-cat", async (req, res) => {
    res.redirect("/");
 });
 
+catController.get("/edit-cat", (req, res) => {
+   res.send("Cat Edit Page");
+});
+
 export default catController;

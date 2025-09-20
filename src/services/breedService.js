@@ -6,9 +6,7 @@ export default {
    },
    async create(breedData) {
       const allBreeds = await Breed.find();
-      const exists = allBreeds.some(
-         (b) => typeof b.breed === "string" && b.breed.trim().toLowerCase() === breedData.breed.trim().toLowerCase()
-      );
+      const exists = allBreeds.some((b) => b.breed.trim().toLowerCase() === breedData.breed.toLowerCase());
       if (exists) {
          return null;
       }
