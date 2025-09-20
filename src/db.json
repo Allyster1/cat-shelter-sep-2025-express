@@ -8,7 +8,7 @@
          "_id": "asd05448-034a-3221-983f-47ac5ce231s9"
       },
       {
-         "imageUrl": "https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg=",
+         "imageUrl": "https://pethelpful.com/.image/w_1080,q_auto:good,c_fill,ar_4:3/MTk2NzY3MjA5ODc0MjY5ODI2/top-10-cutest-cat-photos-of-all-time.jpg",
          "name": "Garry",
          "breed": "Bombay",
          "description": "Mysterious and elegant. Often found lounging in sunny spots.",
@@ -34,6 +34,14 @@
          "imageUrl": "https://catevolution.co.nz/cdn/shop/articles/sphynx-Cats-1200x750.png?v=1674628187",
          "breed": "Sphynx",
          "_id": "4f47ed9e-9df9-4935-ad7e-8017546d59b1"
+      },
+      {
+         "_id": "b7c0b262-cef1-42c1-b62f-70833be4c8e8",
+         "collectionName": "cats",
+         "name": "Diego",
+         "description": "Я говорю мяу",
+         "imageUrl": "https://www.tippaws.com/cdn/shop/articles/getting-to-know-your-russian-blue-tippaws_1060x550_crop_center.png?v=1729077811",
+         "breed": "Russian Blue"
       }
    ],
    "breeds": [

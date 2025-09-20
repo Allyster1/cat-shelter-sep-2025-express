@@ -4,25 +4,27 @@ export default {
   getAll() {
     return Cat.find();
   },
+
   getById(id) {
     return Cat.findById(id);
   },
-  create(catData) {
+
+  async create(catData) {
     const cat = new Cat(catData);
+    return await cat.save();
+  },
 
-    return cat.save();
+  async update(id, catData) {
+    return await Cat.findByIdAndUpdate(id, catData);
   },
-  update(id, catData) {
-    return Cat.findByIdAndUpdate(id, catData);
-  },
+
   search(query) {
-    const allCats = Cat.find();
-
     if (!query || query.trim() === "") {
-      return allCats;
+      return Cat.find();
     }
 
     const searchTerm = query.toLowerCase().trim();
+    const allCats = Cat.find();
 
     return allCats.filter(
       (cat) =>
@@ -31,7 +33,8 @@ export default {
         cat.description.toLowerCase().includes(searchTerm)
     );
   },
-  delete(id) {
-    return Cat.findByIdAndDelete(id);
+
+  async delete(id) {
+    return await Cat.findByIdAndDelete(id);
   },
 };
