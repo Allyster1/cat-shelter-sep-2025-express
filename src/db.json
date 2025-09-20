@@ -5,57 +5,47 @@
          "imageUrl": "https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?cs=srgb&dl=pexels-pixabay-104827.jpg&fm=jpg",
          "name": "Pretty Kitty",
          "breed": "Bombay Cat",
-         "description": "Dominant and aggressive to other cats. Will probably eat you in your sleep. Very cute tho."
+         "description": "Dominant and aggressive to other cats. Will probably eat you in your sleep. Very cute tho.",
+         "_id": "fec05448-034a-40c6-983f-47ac5ce231s9"
       },
       {
          "id": 2,
          "imageUrl": "https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg=",
          "name": "Navcho",
          "breed": "Persian Cat",
-         "description": "A talkative and affectionate cat with striking yellow eyes."
+         "description": "A talkative and affectionate cat with striking yellow eyes.",
+         "_id": "fec05448-034a-3221-983f-47ac5ce231s9"
       },
       {
          "id": 3,
          "imageUrl": "https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg=",
          "name": "Sisa",
          "breed": "Siamese Cat",
-         "description": "Loves to cuddle and nap. Requires regular grooming for its luxurious coat."
+         "description": "Loves to cuddle and nap. Requires regular grooming for its luxurious coat.",
+         "_id": "asd05448-034a-3221-983f-47ac5ce231s9"
       },
       {
          "id": 4,
          "imageUrl": "https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg=",
          "name": "Garry",
          "breed": "Bombay Cat",
-         "description": "Mysterious and elegant. Often found lounging in sunny spots."
+         "description": "Mysterious and elegant. Often found lounging in sunny spots.",
+         "_id": "asd05448-035a-1221-983f-47ac5de231s9"
       },
       {
-         "id": 5,
-         "name": "Superman",
-         "description": "asdasdasd",
-         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-bQnvL_yGisgee2AFzgRyXxfDAaGAo0X348eL4u3RSrDwmgUVYu_c9VFpxE4mPjVx3q8&usqp=CAU",
-         "breed": "Fluffy Cat"
-      },
-      {
-         "id": 6,
-         "name": "Test2",
-         "description": "test descriptnion",
-         "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
-         "breed": "Fluffy Cat"
-      },
-      {
-         "id": 7,
-         "name": "Test3",
-         "description": "dasdasd",
-         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-bQnvL_yGisgee2AFzgRyXxfDAaGAo0X348eL4u3RSrDwmgUVYu_c9VFpxE4mPjVx3q8&usqp=CAU",
-         "breed": "Fluffy Cat"
-      },
-      {
-         "name": "Fond De Teint",
-         "description": "test",
+         "name": "Bad Cat",
+         "description": "400 Cat",
          "imageUrl": "https://http.cat/images/400.jpg",
-         "breed": "Fluffy Cat",
+         "breed": "HTTP Cat",
          "_id": "fec05448-034a-40c6-983f-47ac5cee1369"
+      },
+      {
+         "name": "Okay Cat",
+         "description": "The successful result of a PUT or a DELETE is often not a 200 OK but a 204 No Content (or a 201 Created when the resource is uploaded for the first time).",
+         "imageUrl": "https://http.cat/images/200.jpg",
+         "breed": "HTTP Cat",
+         "_id": "484c4ddb-a724-4bae-9bd0-9dfa244ef87e"
       }
    ],
-   "breeds": []
+   "breeds": ["Bombay Cat", "Persian Cat", "Siamese Cat", "HTTP Cat"]
 }

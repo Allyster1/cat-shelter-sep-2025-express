@@ -43,7 +43,7 @@ SoftUni JS Back End Course Project re-written with express/hbs
 -  [x] Update the routes
 -  [x] Show create breed page
 -  [] Create breed
-   -  [] Add action
+   -  [x] Add action
    -  [] Add service
    -  [] Add model method for creating breed
 -  [] Redirect after creation
