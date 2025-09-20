@@ -33,3 +33,8 @@ SoftUni JS Back End Course Project re-written with express/hbs
 -  -  [] By Name
 -  -  [] By Breed
 -  [] Remember search words
+
+## Additional
+
+-  [x] Add nodemon and change the debugger to include nodemon
+-  [] implement dotenv for secrets and ports
