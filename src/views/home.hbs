@@ -4,7 +4,12 @@
          {{>cat}}
       {{else}}
          <div class="no-cats">
-            <p>There are no cats yet...</p>
+            {{#if searchQuery}}
+               <p>No cats found matching "{{searchQuery}}"</p>
+               <p><a href="/">View all cats</a></p>
+            {{else}}
+               <p>There are no cats yet...</p>
+            {{/if}}
          </div>
       {{/each}}
    </ul>

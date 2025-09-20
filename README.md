@@ -63,11 +63,15 @@ SoftUni JS Back End Course Project re-written with express/hbs
 ### Search
 
 - [x] Render all cats
-- [] Modify search form
-- [] Filter cat
-- - [] By Name
-- - [] By Breed
-- [] Remember search words
+- [x] Update search form
+- [x] Add search route in controller
+- [x] Search by name and breed
+- [x] Implement search service methods
+  - [x] Add searchByName method to catService
+  - [x] Add searchByBreed method to catService
+- [x] Update search form to remember search terms
+- [x] Add search results display
+  - [x] Show "No cats found" message when no results
 
 ## Additional
 

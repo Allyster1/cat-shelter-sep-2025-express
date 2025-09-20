@@ -14,4 +14,19 @@ homeController.get("/", async (req, res) => {
   });
 });
 
+homeController.get("/search", async (req, res) => {
+  const searchQuery = req.query.search || "";
+  const cats = await catService.search(searchQuery);
+
+  res.render("home", {
+    title: searchQuery
+      ? `Search Results for "${searchQuery}"`
+      : "Search Results",
+    headerTitle: "Cat Shelter",
+    showSearchForm: true,
+    searchQuery,
+    cats,
+  });
+});
+
 export default homeController;
